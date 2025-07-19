@@ -1,7 +1,7 @@
 # Big-Data_Profit-Loss-Assignment (HDFS based)
-# 🏬 Task 1: Store Profit and Loss (HDFS MapReduce)
+# Task 1: Store Profit and Loss (HDFS MapReduce)
 
-## 📖 Story Background
+## Question description
 
 You are provided data from a **retail chain in India** operating in multiple cities. Each store in the chain sells a unique combination of product categories — based on local consumer preferences. Your goal is to determine how many stores in each city are profitable and how many are operating at a loss.
 
@@ -9,15 +9,15 @@ Profitability is determined **only based on the top-selling product categories**
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 For each city:
-- ✅ Count the number of **profitable stores** (net profit > 0)
-- ❌ Count the number of **loss-making stores** (net profit ≤ 0)
+-  Count the number of **profitable stores** (net profit > 0)
+-  Count the number of **loss-making stores** (net profit ≤ 0)
 
 ---
 
-## 📌 Key Considerations
+##  Key Considerations
 
 - Each store lists its top-selling `categories`.
 - Sales data is present under `sales_data` for some categories (may include categories outside the top-selling ones).
@@ -29,7 +29,7 @@ For each city:
 
 ---
 
-## 🧾 Sample Input (`input.json`)
+##  Sample Input (`input.json`)
 
 Each line is a JSON object representing a store.
 
